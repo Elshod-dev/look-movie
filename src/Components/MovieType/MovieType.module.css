@@ -1,0 +1,17 @@
+.li {
+    white-space: nowrap;
+    max-width: 60% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.span:not(:last-child) span::after {
+    content: ", ";
+    padding-right: 4px;
+}
+
+span {
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

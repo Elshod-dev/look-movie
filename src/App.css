@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #111;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-color: rgb(18, 18, 18);
+    margin-block: -1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 1);
+    background-color: rgb(255, 193, 36);
+}
+
+.App {
+    background: #0E0D16;
+}
+
+.container {
+    max-width: 95%;
+    margin-inline: auto;
+}
+
+main {
+    background-color: #111;
+    position: relative;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+}
+
+#sign-in-up {
+    background-color: #131313;
+    position: relative;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-in-up .backgroundImg {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    opacity: .6;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11111;
+    background: #0E0D16;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 49);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left .logo img {
+    width: 56px;
+    height: 56px;
+}
+
+.header .header-left .logo span {
+    margin-left: 8px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#FFC226, #F84119);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header .header-left ul {
+    display: flex;
+    margin-left: 2rem;
+    gap: 10px;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .header-right .icon-box {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.header .header-right .icon-box:hover {
+    color: rgb(255, 183, 38);
+}
+
+.header .header-right form {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.70);
+    width: 250px;
+    padding: 10px 20px;
+    gap: 8px;
+}
+
+
+.header .header-right form {
+    color: #959595;
+}
+
+.header .header-right form input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #959595;
+    padding-block: 6px;
+}
+
+.header .header-right form input::placeholder {
+    color: #2F2F2F;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link {
+    color: #fff;
+    padding: 7px 26px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 74px;
+    border: 1.5px solid transparent;
+    background: #0E0D16;
+}
+
+.link:not(.active):hover {
+    background: linear-gradient(#0E0D16, #0E0D16) padding-box,
+        linear-gradient(45deg, #FFC226, #F84119) border-box;
+}
+
+.link.active {
+    border-color: transparent;
+    background: linear-gradient(#FFC226, #F84119) padding-box,
+        linear-gradient(45deg, transparent, transparent) border-box;
+}
+
+.banner .bannerLi {
+    max-width: 100% !important;
+}
+

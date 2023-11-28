@@ -1,0 +1,142 @@
+.signUp {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signUp_logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#FFC226, #F84119);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signUp_logo img {
+    width: 50px;
+    height: auto;
+}
+
+.signUp_box {
+    width: 577px;
+    min-height: 366px;
+    border-radius: 23px;
+    background: rgba(0, 0, 0, 0.60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 25px 22px;
+    padding: 26px 75px;
+}
+
+.signUp_box h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.signUp_box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-block: 22px;
+    gap: 11px;
+}
+
+.signUp_box form input {
+    width: 100%;
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    font-family: Rubik;
+}
+
+.signUp_box form .signUp_email {
+    border-radius: 8px;
+    background: rgba(49, 49, 49, 0.90);
+    padding: 16px 21px;
+
+}
+
+.signUp_box form .signUp_password {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(49, 49, 49, 0.90);
+    padding: 16px 21px;
+    width: 100%;
+    height: 50px;
+}
+
+.signUp_box form .signUp_password input {
+    background-color: transparent;
+}
+
+.signUp_box form .signUp_password div {
+    display: flex;
+}
+
+.signUp_box form button,
+.signUp_box form a {
+    padding: 10px 34px;
+    color: #fff;
+    border-radius: 60px;
+    margin-top: 20px;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.signUp_forgot {
+    color: #838199;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Rubik;
+    cursor: pointer;
+    transition: .1s linear;
+}
+
+.signUp_forgot:hover {
+    color: #fff;
+}
+
+.links_box {
+    border-bottom: 1px solid #838199;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px;
+    gap: 18px;
+    width: 100%;
+}
+
+.signUp_btn {
+    background: rgb(225, 61, 83, 0.5);
+    cursor: not-allowed;
+}
+
+.signUp_btn_open {
+    background: #E13C52;
+    cursor: pointer;
+}
+
+.back {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+}

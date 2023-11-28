@@ -1,0 +1,88 @@
+.movie {
+    width: 100%;
+    padding: 12px;
+}
+
+.movie h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.movie .movieImg {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.movie .movieImg:hover img {
+    opacity: .6;
+}
+
+.movie .movieImg:hover:after {
+    border: 4px solid #8b94a7;
+}
+
+.movie .movieImg::after {
+    position: absolute;
+    content: "";
+    transition: .3s linear;
+    left: -8px;
+    right: -8px;
+    top: -8px;
+    bottom: -8px;
+    border: 4px solid transparent;
+    border-radius: 14px;
+}
+
+.movie img {
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.movie .movieImg:hover img {
+    opacity: .6;
+}
+
+.movie .movieImg div {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    min-height: 80px;
+}
+
+.movie .movieImg div svg {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    width: 120%;
+    height: 120%;
+}
+
+.movie span {
+    font-size: 14px;
+}
+
+.movieInfo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.movieInfo li {
+    position: relative;
+}
+
+.movieInfo li:first-child {
+    max-width: 50px;
+    white-space: nowrap;
+}
+
+.movieInfo li:not(:first-child):before {
+    content: " • ";
+    padding-left: 4px;
+    padding-right: 4px;
+
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "1",
+    "movieName": "Black Adam",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/ab492ed4-7a94-4ffc-81d7-eebf85374358?base_image_bucket_name=image_manager&base_image=b147c9fd-7009-4c63-8ca0-269bf23cb0ef&size=3200x1800&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/ab492ed4-7a94-4ffc-81d7-eebf85374358?base_image_bucket_name=image_manager&base_image=08b73839-e335-419b-8192-95edacafa590&size=600x338&format=jpeg",
+    "starring": "Dwayne Johnson, Aldis Hodge, Pierce Brosnan",
+    "director": "Jaume Collet-Serra",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2022",
+    "trailer": "https://youtu.be/X0tOpBuYasI?si=o8q3gqbbLdI1EUtV",
+    "iframeTrailer": "https://www.youtube-nocookie.com/embed/X0tOpBuYasI?si=9NnLYT9kvLkmNUGz",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "Science Fiction"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "movieName": "The Flash",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/03d28491-71eb-4040-8b1c-b77afc5dc360?base_image_bucket_name=image_manager&base_image=4e9a59ef-f1ac-48ab-b96a-24bd8eff67d2&size=3200x1800&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/03d28491-71eb-4040-8b1c-b77afc5dc360?base_image_bucket_name=image_manager&base_image=6e38a308-f945-4dbf-a7c1-a2ca4f6421fc&size=600x338&format=jpeg",
+    "starring": "Ezra Miller, Michael Keaton, Sasha Calle",
+    "director": "Andy Muschietti",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2023",
+    "trailer": "https://youtu.be/hebWYacbdvc?si=0IW-6cZAZFfoVuxy",
+    "iframeTrailer": "https://www.youtube.com/embed/hebWYacbdvc?si=Fq5ZgXsjZ-aezoXR",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "superheroes"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "movieName": "Evil Dead Rise",
+    "movieImg": "https://img3.hulu.com/user/v3/artwork/9312ac66-8572-416d-9fac-46e39d1e240b?base_image_bucket_name=image_manager&base_image=d8ea9ab4-9778-481c-934e-ecbfb13af109&size=3200x1800&format=jpeg",
+    "movieSmallImg": "https://img3.hulu.com/user/v3/artwork/9312ac66-8572-416d-9fac-46e39d1e240b?base_image_bucket_name=image_manager&base_image=31b7a0c1-e7be-476a-a053-282aff5a984c&size=600x338&format=jpeg",
+    "starring": "Lily Sullivan, Alyssa Sutherland, Morgan Davies",
+    "director": "Lee Cronin",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2023",
+    "trailer": "https://youtu.be/smTK_AeAPHs?si=TUgQb5I2GgiYtYgE",
+    "iframeTrailer": "https://www.youtube.com/embed/smTK_AeAPHs?si=yYJphuxYHLN4sXyp",
+    "movieTypes": [
+      {
+        "type": "Horror"
+      },
+      {
+        "type": "Thriller"
+      },
+      {
+        "type": "Fantasy"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "movieName": "Avatar: The Way of Water",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/91e796af-c62d-41f8-8d65-cbc48e040b7b?base_image_bucket_name=image_manager&base_image=24491ec1-01a0-4e74-a97f-aac7ec5e05e1&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/91e796af-c62d-41f8-8d65-cbc48e040b7b?base_image_bucket_name=image_manager&base_image=286371f2-6b69-4c4c-a6da-cb49af131094&size=600x338&format=jpeg",
+    "starring": "Sam Worthington, Zoe Saldaña, Sigourney Weaver",
+    "director": "James Cameron",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2022",
+    "trailer": "https://youtu.be/o5F8MOz_IDw?si=ramyDq13ggO1PQdt",
+    "iframeTrailer": "https://www.youtube.com/embed/o5F8MOz_IDw?si=LkVkEXqFQbU-6i9k",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "science fiction"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "movieName": "Shazam! Fury of the Gods",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/68ca1db4-8557-4cdc-b520-1e78443a7b3c?base_image_bucket_name=image_manager&base_image=28253041-5194-4068-9cf2-3de6c7816af8&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/68ca1db4-8557-4cdc-b520-1e78443a7b3c?base_image_bucket_name=image_manager&base_image=e4d761c6-a874-440c-85bc-bf15f78f5156&size=600x338&format=jpeg",
+    "starring": "Zachary Levi, Asher Angel, Jack Dylan Grazer",
+    "director": "David F. Sandberg",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2023",
+    "trailer": "https://youtu.be/Zi88i4CpHe4?si=nNAnyIKFYVW05E9c",
+    "iframeTrailer": "https://www.youtube.com/embed/Zi88i4CpHe4?si=tlI8J7jGhmbUfKdL",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "movieName": "Run",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/72eec9c8-0164-4e0c-868a-b433960d7f93?base_image_bucket_name=image_manager&base_image=b38df1ae-a783-4f99-be87-9054f73c5987&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/72eec9c8-0164-4e0c-868a-b433960d7f93?base_image_bucket_name=image_manager&base_image=da5f29ad-d699-473d-b9b7-7ea6da946442&size=600x338&format=jpeg",
+    "starring": "Sarah Paulson, Kiera Allen, Onalee Ames",
+    "director": "Aneesh Chaganty",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2020",
+    "trailer": "https://youtu.be/0Dhh7q9Us5c?si=5tBJb092CcJ6ZcoN",
+    "iframeTrailer": "https://www.youtube.com/embed/0Dhh7q9Us5c?si=Nk0ayYIiRrcMb62T",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "movieName": "Alone",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/a6f8d89d-e916-4b8f-9bb8-cba3032d3c8a?base_image_bucket_name=image_manager&base_image=1dde7fbf-95bf-4a54-95e8-8e23e0dc64ea&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/a6f8d89d-e916-4b8f-9bb8-cba3032d3c8a?base_image_bucket_name=image_manager&base_image=26e7c316-f0e0-4c58-a311-dfd106606330&size=600x338&format=jpeg",
+    "starring": "Jules Willcox, Marc Menchaca, Anthony Heald",
+    "director": "John Hyams",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2020",
+    "trailer": "https://youtu.be/NoP2mJiCzWQ?si=nwJupu4qpe7WgShm",
+    "iframeTrailer": "https://www.youtube.com/embed/RQNL2x4wK1s?si=2oOL-UlqhBjo6nnw",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "movieName": "No Exit",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/4800d468-b587-44de-bad8-2646588bfa6b?base_image_bucket_name=image_manager&base_image=baedd19e-65d3-4aca-bb70-c81fb733a0a1&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/4800d468-b587-44de-bad8-2646588bfa6b?base_image_bucket_name=image_manager&base_image=80717f64-ba52-4f46-831b-14172b172f52&size=600x338&format=jpeg",
+    "starring": "Havana Rose, Liu Dale, Dickey Dennis Haysbert",
+    "director": "Damien Power",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2022",
+    "trailer": "https://youtu.be/GFvupyiNEz0?si=-CEtkaIG9aVEK3B-",
+    "iframeTrailer": "https://www.youtube.com/embed/GFvupyiNEz0?si=g3WCZ4kv9cap9Bh-",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "movieName": "The Owners",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/32bb5534-583a-40bd-b5f8-531ddae3f5da?base_image_bucket_name=image_manager&base_image=3ba3ae11-4841-434a-8833-a3146845d49e&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/32bb5534-583a-40bd-b5f8-531ddae3f5da?base_image_bucket_name=image_manager&base_image=b68a708f-a396-432b-ab51-4ba44f118caa&size=600x338&format=jpeg",
+    "starring": "Maisie Williams, Sylvester McCoy, Rita Tushingham",
+    "director": "Julius Berg",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2020",
+    "trailer": "https://youtu.be/yMvJSivVNrs?si=n0Ob9AJBTfKuTrlQ",
+    "iframeTrailer": "https://www.youtube.com/embed/yMvJSivVNrs?si=S3H7LQrppUCTAdCP",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "movieName": "Ghost Team",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/74b0d8fc-cad8-47e2-80e5-0336dd455c80?base_image_bucket_name=image_manager&base_image=a8768ca4-16a9-435b-acaf-42aac55e247b&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/74b0d8fc-cad8-47e2-80e5-0336dd455c80?base_image_bucket_name=image_manager&base_image=846b6e3f-c868-4c8b-91e1-a99de56c14be&size=600x338&format=jpeg",
+    "starring": "Jon Heder, David Krumholtz, Melonie Diaz",
+    "director": "Oliver Irving",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2016",
+    "trailer": "https://youtu.be/bXRaPdVrmZI?si=rvHPZNz5dpylzy1X",
+    "iframeTrailer": "https://www.youtube.com/embed/bXRaPdVrmZI?si=fF9tMUZsJ_2PtKQ7",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  }
+]
