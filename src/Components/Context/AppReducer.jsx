@@ -18,8 +18,14 @@ export const storeReducer = (state, action) => {
       return { ...state, bannerIndex: action.payload };
     case "ADD_COLOR":
       return { ...state, randomColor: action.payload };
-    case "asd":
-      return { ...state, detect: action.payload };
+    case "MOVIES_GENRE":
+      return { ...state, moviesGenre: action.payload };
+    case "MOVIES_YEAR":
+      return { ...state, moviesYear: action.payload };
+    case "FILTERED":
+      return { ...state, filtered: action.payload };
+    case "ERROR_QUERY":
+      return { ...state, errorQuery: action.payload };
 
     default:
       return state;

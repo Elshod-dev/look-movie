@@ -6,6 +6,9 @@ import { Show } from "@styled-icons/boxicons-regular/Show";
 import { Hide } from "@styled-icons/boxicons-regular/Hide";
 import { Play } from "@styled-icons/ionicons-outline/Play";
 import { Close } from "@styled-icons/ionicons-solid/Close";
+import { ChevronDown } from "@styled-icons/evil/ChevronDown";
+import { ChevronLeft } from "@styled-icons/bootstrap/ChevronLeft";
+import { ChevronRight } from "@styled-icons/bootstrap/ChevronRight";
 export const Icon = styled.div``;
 Icon.Search = styled(Search)`
   width: 18px;
@@ -29,8 +32,10 @@ Icon.Play = styled(Play)`
   width: 22px;
   height: 22px;
 `;
-Icon.Close = styled(Close)`
-`;
+Icon.Close = styled(Close)``;
+Icon.ChevronDown = styled(ChevronDown)``;
+Icon.ChevronLeft = styled(ChevronLeft)``;
+Icon.ChevronRight = styled(ChevronRight)``;
 
 export const BannerBackground = styled.div`
   position: absolute;

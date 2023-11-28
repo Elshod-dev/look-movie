@@ -17,6 +17,14 @@
     padding: 1rem;
 }
 
+.filtered {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 120px 0 100px;
+}
 
 @media screen and (min-width:600px) {
     .movies {
@@ -34,7 +42,7 @@
         width: 100%;
         display: grid;
         row-gap: 34px;
-        grid-template-columns: repeat(auto-fit, minmax(215px, 20%)) ;
+        grid-template-columns: repeat(auto-fit, minmax(215px, 25%));
         padding: 1rem;
     }
 

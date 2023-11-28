@@ -172,7 +172,6 @@
     width: 85%;
     height: 90%;
     border-radius: 20px;
-    box-shadow: 1px 1px 14px 4px rgba(255, 107, 8, 0.42);
     overflow: hidden;
     background: #000;
     margin-bottom: 10px;
@@ -191,7 +190,6 @@
     top: 2%;
     position: absolute;
     background: #111;
-    box-shadow: 1px 1px 14px 4px rgba(255, 107, 8, 0.42);
     z-index: 12;
     border-radius: 50%;
     cursor: pointer;

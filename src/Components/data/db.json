@@ -244,5 +244,48 @@
         "type": "horror"
       }
     ]
+  },
+  {
+    "id": "11",
+    "movieName": "Get Hard",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/443ef0e3-0b4e-438e-be87-9a5635149e60?base_image_bucket_name=image_manager&base_image=d2133b2c-1685-4252-93c5-cbab5718ba6d&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/443ef0e3-0b4e-438e-be87-9a5635149e60?base_image_bucket_name=image_manager&base_image=4d41fd14-8ab7-47ae-bafa-3e27940807e4&size=600x338&format=jpeg",
+    "starring": "Will Ferrell, Kevin Hart, Craig T. Nelson",
+    "director": "Etan Cohen",
+    "rated": "TVMA",
+    "category": "Movie",
+    "releasedDate": "2015",
+    "trailer": "https://youtu.be/lEqrpuU9fYI?si=piV2Bp8nmlPcXRpq",
+    "iframeTrailer": "https://www.youtube.com/embed/lEqrpuU9fYI?si=piV2Bp8nmlPcXRpq",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "movieName": "Central Intelligence",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/151c0290-d714-41cf-9eab-b6ca9b96134a?base_image_bucket_name=image_manager&base_image=63091ec2-d9d3-41fe-a1d9-f6be1cc882da&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/151c0290-d714-41cf-9eab-b6ca9b96134a?base_image_bucket_name=image_manager&base_image=b93d6d1d-9483-4864-a56f-f246b7d1e121&size=600x338&format=jpeg",
+    "starring": "Dwayne Johnson, Kevin Hart, Amy Ryan",
+    "director": "Rawson Marshall Thurber",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2016",
+    "trailer": "https://youtu.be/MxEw3elSJ8M?si=yf_MF-GkGQe77uOc",
+    "iframeTrailer": "https://www.youtube.com/embed/MxEw3elSJ8M?si=yf_MF-GkGQe77uOc",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "adventure"
+      }
+    ]
   }
 ]
+

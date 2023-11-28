@@ -1,0 +1,92 @@
+.form {
+    margin: 80px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form input {
+    border-radius: 8px;
+    padding: 12px 30px 12px 24px;
+    color: #B7B7B7;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    color: #B7B7B7;
+}
+
+.form .select1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.form .select1 svg {
+    position: absolute;
+    right: 2%;
+    width: 30px;
+    height: 30px;
+    z-index: 0;
+}
+
+.form .select1 div {
+    position: absolute;
+    right: 2%;
+    width: 30px;
+    height: 30px;
+    z-index: 0;
+}
+
+.form select {
+    position: relative;
+    background: transparent;
+    z-index: 1;
+    padding: 12px 40px 12px 20px;
+    color: #B7B7B7;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.form select option {
+    background: #111;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.form option {
+    text-transform: capitalize;
+}
+
+.form button {
+    padding: 14px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(141deg, #FFC226 9.4%, #F84119 91.91%);
+}

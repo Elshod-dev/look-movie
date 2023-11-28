@@ -1,4 +1,4 @@
-import React, { memo, useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { GlobalContext } from "../Context/GlobalState.jsx";
 import styles from "./Banner.module.css";
 import { BannerBackground, Icon } from "../AppStyles.jsx";
@@ -34,6 +34,7 @@ function Banner() {
       opacity: "0.35",
       backgroundImage: ` linear-gradient(5deg, #000 0%, transparent 50%), radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 20%)`,
     },
+    { boxShadow: `1px 1px 14px 4px hsla(${state.randomColor}, 100%, 60%, 1) ` },
   ];
   return (
     <div className={styles.banner}>
@@ -41,7 +42,7 @@ function Banner() {
         <div className={styles.banner_box}>
           {youtube && (
             <div className={styles.youtube}>
-              <div className={styles.iframeBox}>
+              <div style={allColors[4]} className={styles.iframeBox}>
                 <iframe
                   src={readyMovies[rdBanner].iframeTrailer}
                   title="YouTube video player"
@@ -50,6 +51,7 @@ function Banner() {
                 ></iframe>
               </div>
               <div
+                style={allColors[4]}
                 className={styles.xBtn}
                 onClick={() => {
                   setYoutube(false);
