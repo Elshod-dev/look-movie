@@ -42,7 +42,7 @@
         width: 100%;
         display: grid;
         row-gap: 34px;
-        grid-template-columns: repeat(auto-fit, minmax(215px, 25%));
+        grid-template-columns: repeat(auto-fit, minmax(215px, calc(100% / 4)));
         padding: 1rem;
     }
 

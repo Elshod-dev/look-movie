@@ -4,28 +4,47 @@ import { Icon } from "../AppStyles";
 import { v4 as uuidv4 } from "uuid";
 import { GlobalContext } from "../Context/GlobalState.jsx";
 function FilterItem({ movies }) {
-  const { state, detectTypes, filtered, errorQuery } =
+  const { state, detectTypes, filtered, errorQuery, addPageData } =
     useContext(GlobalContext);
   const [isTrue, setIsTrue] = useState(false);
   const inputValue = useRef();
+  const inputYear = useRef();
+  const inputGenre = useRef();
 
   const submitHandler = (e) => {
     e.preventDefault();
+    let value = inputValue.current.value;
+    let year = inputYear.current.value;
+    let genre = inputGenre.current.value;
     let newMovies = [];
     movies.map((movie) => {
-      if (
-        movie.movieName
-          .toLowerCase()
-          .includes(inputValue.current.value.toLowerCase())
-      ) {
-        newMovies.push(movie);
+      if (value == "" && year == "" && genre == "") {
+        filtered(false);
       } else {
-        filtered(true);
+        if (movie.movieName.toLowerCase().includes(value.toLowerCase())) {
+          if (movie.releasedDate.includes(year)) {
+            if (genre === "") {
+              newMovies.push(movie);
+            } else {
+              movie.movieTypes.map((type) => {
+                if (type.type.includes(genre)) {
+                  newMovies.push(movie);
+                } else {
+                  filtered(true);
+                }
+              });
+            }
+          } else {
+            filtered(true);
+          }
+        } else {
+          filtered(true);
+        }
       }
     });
     setIsTrue(false);
-    detectTypes(newMovies);
-    errorQuery(inputValue.current.value);
+    detectTypes(newMovies, 0, 12);
+    errorQuery({ value: inputValue.current.value, year: year, genre: genre });
     inputValue.current.value = "";
   };
   return (
@@ -56,7 +75,7 @@ function FilterItem({ movies }) {
       </div>
 
       <div className={styles.select1}>
-        <select name="year" className="select-input">
+        <select ref={inputYear} name="year" className="select-input">
           <option value="">Year</option>
           {state.moviesYear.map((year) => (
             <option key={uuidv4()} value={year}>
@@ -67,7 +86,7 @@ function FilterItem({ movies }) {
         <Icon.ChevronDown />
       </div>
       <div className={styles.select1}>
-        <select name="type">
+        <select ref={inputGenre} name="type">
           <option value="">Genre</option>
           {state.moviesGenre.map((genre) => (
             <option key={uuidv4()} value={genre}>

@@ -84,12 +84,27 @@ export const GlobalProvider = ({ children }) => {
       payload: moviesYear,
     });
   };
-  const detectTypes = (movies) => {
+  const detectTypes = (movies,start, end) => {
     dispatch({
       type: "SEND_BANNER",
       payload: 0,
     });
+
+    console.log(start, end);
+    let paginationItem = movies.slice(start, end);
+    dispatch({
+      type: "ADD_PAGE_ITEMS1",
+      payload: paginationItem,
+    });
+
     setNewMovies(movies);
+  };
+  const addPageData = (item, start, end) => {
+    let paginationItem = item.slice(start, end);
+    dispatch({
+      type: "ADD_PAGE_ITEMS",
+      payload: paginationItem,
+    });
   };
   const addData = (item) => {
     dispatch({
@@ -122,6 +137,7 @@ export const GlobalProvider = ({ children }) => {
       .get(`https://6560acc483aba11d99d151a5.mockapi.io/api/movies`)
       .then((res) => {
         addData(res.data);
+        addPageData(res.data, 0, 12);
         loading(false);
         addRandomBanner(res.data);
         sort(res.data);
@@ -135,6 +151,7 @@ export const GlobalProvider = ({ children }) => {
     isLoading,
     filtered,
     errorQuery,
+    addPageData,
   };
 
   return (

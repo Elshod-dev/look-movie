@@ -4,6 +4,10 @@ export const storeReducer = (state, action) => {
   switch (action.type) {
     case "ADD_ITEM":
       return { ...state, movies: action.payload };
+    case "ADD_PAGE_ITEMS":
+      return { ...state, pageMovies: action.payload };
+    case "ADD_PAGE_ITEMS1":
+      return { ...state, newPageMovies: action.payload };
     case "ADD_NEW_ITEM":
       return { ...state, newMovies: action.payload };
     case "ADD_ITEMS":

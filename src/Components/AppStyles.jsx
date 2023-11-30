@@ -9,14 +9,15 @@ import { Close } from "@styled-icons/ionicons-solid/Close";
 import { ChevronDown } from "@styled-icons/evil/ChevronDown";
 import { ChevronLeft } from "@styled-icons/bootstrap/ChevronLeft";
 import { ChevronRight } from "@styled-icons/bootstrap/ChevronRight";
+import { MenuAltRight } from "@styled-icons/boxicons-regular/MenuAltRight";
 export const Icon = styled.div``;
 Icon.Search = styled(Search)`
   width: 18px;
   height: 18px;
 `;
 Icon.UserCircle = styled(UserCircle)`
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
 `;
 Icon.Show = styled(Show)`
   width: 22px;
@@ -31,6 +32,8 @@ Icon.Hide = styled(Hide)`
 Icon.Play = styled(Play)`
   width: 22px;
   height: 22px;
+`;
+Icon.MenuAltRight = styled(MenuAltRight)`
 `;
 Icon.Close = styled(Close)``;
 Icon.ChevronDown = styled(ChevronDown)``;

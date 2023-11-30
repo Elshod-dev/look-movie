@@ -11,11 +11,17 @@ import FilterItem from "../../Components/Filter Items/FilterItem.jsx";
 import Pagination from "../../Components/Pagination/Pagination.jsx";
 export function Catalog() {
   const { state } = useContext(GlobalContext);
-  const { movies, newMovies, errorQuery } = state;
+  const { movies, newMovies, errorQuery, pageMovies, newPageMovies } = state;
   let isReady = false;
+  let isReady2 = true;
   if (newMovies) {
     if (newMovies.length !== 0) {
       isReady = true;
+      if (newMovies.length <= 12) {
+        isReady2 = true;
+      } else {
+        isReady2 = false;
+      }
     }
   }
   return (
@@ -30,27 +36,31 @@ export function Catalog() {
               <div>OOPS...</div>
               <div>We are very sorry!</div>
               <div>
-                No results were found for your search query "{errorQuery}".
+                No results were found for your search query:
+                {`${errorQuery.value ? ` Name: ${errorQuery.value}` : ""}`}
+                {`${errorQuery.year ? ` Year: ${errorQuery.year},` : ""}`}
+                {`${errorQuery.genre ? ` Genre: ${errorQuery.genre}` : ""}`}.
               </div>
             </div>
           )}
           {!isReady && !state.filtered && (
             <motion.div layout className={styles.movies}>
-              {movies.map((movie) => (
+              {pageMovies.map((movie) => (
                 <MovieItem key={movie.id} movie={movie} />
               ))}
             </motion.div>
           )}
           {isReady && (
             <motion.div layout className={styles.movies}>
-              {newMovies.map((movie) => (
+              {newPageMovies.map((movie) => (
                 <MovieItem key={movie.id} movie={movie} />
               ))}
             </motion.div>
           )}
         </>
       )}
-      <Pagination />
+      {isReady2 && !state.filtered && <Pagination />}
+      {!isReady2 && state.filtered && <Pagination />}
     </section>
   );
 }

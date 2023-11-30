@@ -7,6 +7,23 @@
     gap: 16px;
 }
 
+.pagination .pageBox {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.pagination .pageBox div:first-child {
+    position: absolute;
+    left: -40px;
+}
+
+.pagination .pageBox div:last-child {
+    position: absolute;
+    right: -40px;
+}
+
 .pagination svg {
     width: 28px;
     width: 28px;
@@ -28,10 +45,7 @@
     border: 1px solid #B7B7B7;
 }
 
-.pagination button.active {
-    border: none;
-    background: linear-gradient(141deg, #FFC226 9.4%, #F84119 91.91%);
-}
+
 
 .pagination .dots {
     pointer-events: none;
@@ -39,4 +53,9 @@
 
 .arrowBtn {
     cursor: pointer;
+}
+
+.active {
+    border: none !important;
+    background: linear-gradient(141deg, #FFC226 9.4%, #F84119 91.91%) !important;
 }
