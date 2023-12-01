@@ -3,6 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignUp.module.css";
 import Logo from "../../Assets/logo.png";
 import { Icon } from "../../Components/AppStyles.jsx";
+import app from "../../Firebase/Config.js";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
 export function SignUp() {
   const name = useRef();
   const email = useRef();
@@ -18,12 +21,16 @@ export function SignUp() {
   const navigate = useNavigate();
   const submitHandler = (e) => {
     e.preventDefault();
+    let emailString = email.current.value;
+    let passwordString = confirm.current.value;
+
     if (
       email.current.value !== "" &&
       password.current.value !== "" &&
       name.current.value !== "" &&
       confirm.current.value !== ""
     ) {
+      createUserWithEmailAndPassword(getAuth(), emailString, passwordString);
       navigate("/");
     }
   };

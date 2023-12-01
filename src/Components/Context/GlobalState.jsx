@@ -1,12 +1,27 @@
 import { createContext, useEffect, useReducer, useState } from "react";
 import { storeReducer, initialState } from "./AppReducer.jsx";
 import axios from "axios";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 export const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
   const [state, dispatch] = useReducer(storeReducer, initialState);
   const [newMovies, setNewMovies] = useState([]);
+  const login = (bool) => {
+    dispatch({ type: "ADD_LOGIN", payload: bool });
+  };
+  let auth = getAuth();
+  useEffect(() => {
+    let findOut = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        login(true);
+      } else {
+        login(false);
+      }
+    });
+    return findOut;
+  }, [auth]);
 
   useEffect(() => {
     const randomBannerMath = 0;
@@ -84,7 +99,7 @@ export const GlobalProvider = ({ children }) => {
       payload: moviesYear,
     });
   };
-  const detectTypes = (movies,start, end) => {
+  const detectTypes = (movies, start, end) => {
     dispatch({
       type: "SEND_BANNER",
       payload: 0,
@@ -130,6 +145,20 @@ export const GlobalProvider = ({ children }) => {
       payload: bool,
     });
   };
+  const addLibrary = (id, movies) => {
+    let asd = [];
+    movies.filter((movie) => {
+      if (movie.id === id) {
+        asd.push(movie);
+      }
+    });
+
+    let ddd = state.libraryMovies ? [...state.libraryMovies, ...asd] : [...asd];
+    dispatch({
+      type: "ADD_LIBRARY",
+      payload: ddd,
+    });
+  };
 
   useEffect(() => {
     loading(true);
@@ -152,6 +181,8 @@ export const GlobalProvider = ({ children }) => {
     filtered,
     errorQuery,
     addPageData,
+    login,
+    addLibrary,
   };
 
   return (

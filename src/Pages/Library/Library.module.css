@@ -1,7 +1,95 @@
-.library {
+.library_container {
     color: #fff;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5rem;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.library {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    position: relative;
+}
+
+.libraryTexts {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.libraryTexts h1 {
+    max-width: 500px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.libraryTexts p {
+    max-width: 500px;
+    color: #F8F8F8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.library_movies {
+    width: 100%;
+}
+
+.library_ops {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 8px;
+    font-size: 24px;
+}
+
+.movies {
+    width: 100%;
+    display: grid;
+    row-gap: 34px;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    padding: 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .movies {
+        width: 100%;
+        display: grid;
+        row-gap: 34px;
+        grid-template-columns: repeat(auto-fit, minmax(215px, 50%));
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (min-width:1105px) {
+    .movies {
+        width: 100%;
+        display: grid;
+        row-gap: 34px;
+        grid-template-columns: repeat(auto-fit, minmax(215px, calc(100% / 4)));
+        padding: 1rem;
+    }
+
 }

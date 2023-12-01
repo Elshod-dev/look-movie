@@ -2,9 +2,13 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./SignIn.module.css";
 import Logo from "../../Assets/logo.png";
 import { Icon } from "../../Components/AppStyles.jsx";
-import { useRef, useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import app from "../../Firebase/Config.js";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { useContext } from "react";
+import { GlobalContext } from "../../Components/Context/GlobalState.jsx";
 export function SignIn() {
+  const { login } = useContext(GlobalContext);
   const [isShow, setIsShow] = useState(false);
   const [isReady, setIsReady] = useState(false);
   const [isAllow, setIsAllow] = useState(true);
@@ -28,11 +32,20 @@ export function SignIn() {
   const submitHandler = (e) => {
     e.preventDefault();
     if (email.current.value !== "" && password.current.value !== "") {
-      navigate("/");
+      signInWithEmailAndPassword(
+        getAuth(),
+        email.current.value,
+        password.current.value
+      )
+        .then(() => {
+          login(true);
+          navigate("/");
+        })
+        .catch(() => {
+          console.log("Something Error");
+        });
     }
   };
-  // src="https://youtu.be/X0tOpBuYasI?si=hQzZpH5uGl0U2vp6"
-  // poster="https://img.hulu.com/user/v3/artwork/ab492ed4-7a94-4ffc-81d7-eebf85374358?
   return (
     <section className={styles.signIn}>
       <Link to="/" className={styles.signIn_logo}>
@@ -98,8 +111,6 @@ export function SignIn() {
       <Link to="/" className={styles.back}>
         Back to website
       </Link>
-
-      
     </section>
   );
 }

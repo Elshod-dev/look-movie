@@ -5,7 +5,7 @@ import { BannerBackground, Icon } from "../AppStyles.jsx";
 import MovieType from "./../MovieType/MovieType";
 import ContentLoader from "react-content-loader";
 function Banner() {
-  const { state, isLoading } = useContext(GlobalContext);
+  const { state, isLoading, addLibrary } = useContext(GlobalContext);
   const { newMovies, randomBannerMath, movies, bannerIndex, loadingDone } =
     state;
   let isReady = false;
@@ -18,6 +18,7 @@ function Banner() {
   let readyMovies = isReady ? newMovies : movies;
 
   const [youtube, setYoutube] = useState(false);
+  const [detail, setDetail] = useState(false);
 
   const allColors = [
     {
@@ -58,6 +59,45 @@ function Banner() {
                 }}
               >
                 <Icon.Close />
+              </div>
+            </div>
+          )}
+          {detail && (
+            <div className={styles.detail}>
+              <div style={allColors[4]} className={styles.iframeBox}>
+                <div className={styles.detail_img}>
+                  <img src={readyMovies[rdBanner].movieImg} />
+                </div>
+                <div className={styles.detail_texts}>
+                  <h1>{readyMovies[rdBanner].movieName}</h1>
+                  <div className={styles.detail_details}>
+                    <li>Rate: {readyMovies[rdBanner].rated}</li>
+                    <li>Release data: {readyMovies[rdBanner].releasedDate}</li>
+                    <li className={`${styles.li}`}>
+                      Genre:
+                      {readyMovies[rdBanner].movieTypes.map((type) => (
+                        <span key={type.type} className={styles.span}>
+                          <span>{type.type}</span>
+                        </span>
+                      ))}
+                    </li>
+                  </div>
+                  <button
+                    onClick={() => {
+                      addLibrary(readyMovies[rdBanner].id, movies);
+                    }}
+                  >
+                    Add to my library{" "}
+                  </button>
+                </div>
+                <div
+                  className={styles.xBtn}
+                  onClick={() => {
+                    setDetail(false);
+                  }}
+                >
+                  <Icon.Close />
+                </div>
               </div>
             </div>
           )}
@@ -126,7 +166,13 @@ function Banner() {
                 >
                   <Icon.Play /> Watch Trailer
                 </button>
-                <button>More details</button>
+                <button
+                  onClick={() => {
+                    setDetail(true);
+                  }}
+                >
+                  More details
+                </button>
               </div>
             </div>
           </li>

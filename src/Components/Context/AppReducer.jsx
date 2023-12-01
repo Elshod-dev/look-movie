@@ -30,6 +30,10 @@ export const storeReducer = (state, action) => {
       return { ...state, filtered: action.payload };
     case "ERROR_QUERY":
       return { ...state, errorQuery: action.payload };
+    case "ADD_LOGIN":
+      return { ...state, isLogged: action.payload };
+    case "ADD_LIBRARY":
+      return { ...state, libraryMovies: action.payload };
 
     default:
       return state;

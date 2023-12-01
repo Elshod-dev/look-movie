@@ -15,6 +15,7 @@ import {
   SignUp,
 } from "./Pages/AllExports.js";
 import { GlobalProvider } from "./Components/Context/GlobalState.jsx";
+import Profile from "./Pages/Profile/Profile.jsx";
 
 function App() {
   const routes = createBrowserRouter(
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/library" element={<Library />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
         <Route element={<SignLayout />}>
           <Route path="/signIn" element={<SignIn />} />

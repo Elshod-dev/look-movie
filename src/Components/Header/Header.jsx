@@ -1,12 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../Assets/logo.png";
 import { Icon } from "../AppStyles";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { useMediaQuery } from "react-responsive";
-function Header({ isSignin }) {
+import { GlobalContext } from "../Context/GlobalState.jsx";
+function Header() {
+  const { state } = useContext(GlobalContext);
   const [show, setShow] = useState(false);
   const isMobile = useMediaQuery({ maxWidth: 768 });
-  console.log(isMobile);
   return (
     <div className="container header">
       <div className="header-left">
@@ -53,14 +54,17 @@ function Header({ isSignin }) {
               </NavLink>
             </li>
             <Link
-              onClick={() => {
-                setShow(!show);
-              }}
-              to="/signIn"
               className="icon-box"
+              to={`${state.isLogged ? "/profile" : "/signIn"}`}
             >
               <Icon.UserCircle />
-              <span>{isSignin ? "Profile" : "Sign in"}</span>
+              <span>
+                {state.isLogged ? (
+                  <Link to="/profile">Profile</Link>
+                ) : (
+                  <Link to="/signIn">Sign In</Link>
+                )}
+              </span>
             </Link>
           </ul>
         </div>
