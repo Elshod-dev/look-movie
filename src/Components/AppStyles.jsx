@@ -10,6 +10,7 @@ import { ChevronDown } from "@styled-icons/evil/ChevronDown";
 import { ChevronLeft } from "@styled-icons/bootstrap/ChevronLeft";
 import { ChevronRight } from "@styled-icons/bootstrap/ChevronRight";
 import { MenuAltRight } from "@styled-icons/boxicons-regular/MenuAltRight";
+import { LogoutCircle } from "@styled-icons/remix-line/LogoutCircle";
 export const Icon = styled.div``;
 Icon.Search = styled(Search)`
   width: 18px;
@@ -39,6 +40,7 @@ Icon.Close = styled(Close)``;
 Icon.ChevronDown = styled(ChevronDown)``;
 Icon.ChevronLeft = styled(ChevronLeft)``;
 Icon.ChevronRight = styled(ChevronRight)``;
+Icon.LogoutCircle = styled(LogoutCircle)``;
 
 export const BannerBackground = styled.div`
   position: absolute;

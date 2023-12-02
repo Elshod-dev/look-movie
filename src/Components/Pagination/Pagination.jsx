@@ -28,7 +28,7 @@ function Pagination() {
   return (
     <div className={styles.pagination}>
       <div className={styles.pageBox}>
-        {active !== 0 && (
+        {/* {active !== 0 && (
           <div
             className={styles.arrowBtn}
             onClick={() => {
@@ -37,7 +37,7 @@ function Pagination() {
           >
             <Icon.ChevronLeft />
           </div>
-        )}
+        )} */}
         <>
           {!state.filtered &&
             state.movies &&
@@ -71,7 +71,7 @@ function Pagination() {
               );
             })}
         </>
-        {active !== 1 && (
+        {/* {active !== 1 && (
           <div
             className={styles.arrowBtn}
             onClick={() => {
@@ -80,7 +80,7 @@ function Pagination() {
           >
             <Icon.ChevronRight />
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

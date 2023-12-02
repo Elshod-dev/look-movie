@@ -286,6 +286,662 @@
         "type": "adventure"
       }
     ]
+  },
+  {
+    "id": "13",
+    "movieName": "5 Flights Up",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/18af6d4e-545a-4af1-9c4d-727de4879f05?base_image_bucket_name=image_manager&base_image=2acf09d1-1e46-4eb3-96bf-2768a35b0ef0&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/18af6d4e-545a-4af1-9c4d-727de4879f05?base_image_bucket_name=image_manager&base_image=d1bb32be-0573-49a7-97f2-20ae4d4496e3&size=600x338&format=jpeg",
+    "starring": "Morgan Freeman, Diane Keaton, Cynthia Nixon",
+    "director": "Richard Loncraine",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2015",
+    "trailer": "https://youtu.be/Vub5xBlJ8HU?si=A2eBqJO1o_OnHSqo",
+    "iframeTrailer": "https://www.youtube.com/embed/Vub5xBlJ8HU?si=A2eBqJO1o_OnHSqo",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "romance"
+      },
+      {
+        "type": "black stories"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "movieName": "A Brilliant Young Mind",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/8aebcc98-26f1-48b6-836f-091b8d5a737a?base_image_bucket_name=image_manager&base_image=3dc17769-1b4b-4d14-a878-72cfefed718d&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/8aebcc98-26f1-48b6-836f-091b8d5a737a?base_image_bucket_name=image_manager&base_image=3f9fd01b-053f-4787-8743-46ba099e8106&size=600x338&format=jpeg",
+    "starring": "Asa Butterfield, Rafe Spall, Sally Hawkins",
+    "director": "Morgan Matthews",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2015",
+    "trailer": "https://youtu.be/E4aOWwdZuQo?si=6P9DScPyKLzV34_s",
+    "iframeTrailer": "https://www.youtube.com/embed/E4aOWwdZuQo?si=6P9DScPyKLzV34_s",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "romance"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "movieName": "Jumanji: Welcome to the Jungle",
+    "movieImg": "https://img3.hulu.com/user/v3/artwork/3db7ecba-9c35-4663-bed2-15b2725709c5?base_image_bucket_name=image_manager&base_image=df96e096-2eed-4d82-bf55-d22a37146aa1&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img3.hulu.com/user/v3/artwork/3db7ecba-9c35-4663-bed2-15b2725709c5?base_image_bucket_name=image_manager&base_image=4bc1bb30-f1b2-4894-9457-e13cd0a86b2e&size=600x338&format=jpeg",
+    "starring": "Dwayne Johnson, Kevin Hart, Jack Black",
+    "director": "Jake Kasdan",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2017",
+    "trailer": "https://youtu.be/2QKg5SZ_35I?si=OQIbpTa64YCtZABt",
+    "iframeTrailer": "https://www.youtube.com/embed/2QKg5SZ_35I?si=OQIbpTa64YCtZABt",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "science fiction"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "movieName": "Fantastic Four",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/f33c69ff-1913-43e5-b647-7c870179bb99?base_image_bucket_name=image_manager&base_image=5e51d093-aaf8-4a37-8724-d4fd3b2d7006&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/f33c69ff-1913-43e5-b647-7c870179bb99?base_image_bucket_name=image_manager&base_image=a2a25570-d299-4f18-87cc-809f91ab2e64&size=600x338&format=jpeg",
+    "starring": "Miles Teller, Michael B. Jordan, Kate Mara",
+    "director": "Josh Trank",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2015",
+    "trailer": "https://youtu.be/_rRoD28-WgU?si=M--K8tybNX3ECNBR",
+    "iframeTrailer": "https://www.youtube.com/embed/_rRoD28-WgU?si=M--K8tybNX3ECNBR",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "superheroes"
+      },
+      {
+        "type": "science fiction"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "movieName": "Iron Man 3",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/e8569c2d-85ec-42a4-8811-b2618d494a40?base_image_bucket_name=image_manager&base_image=e079904c-d761-420e-88ca-c2452d723171&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/e8569c2d-85ec-42a4-8811-b2618d494a40?base_image_bucket_name=image_manager&base_image=c4271f32-0807-4bcb-8242-41d15d854348&size=600x338&format=jpeg",
+    "starring": "Robert Downey Jr., Gwyneth Paltrow, Don Cheadle",
+    "director": "Shane Black",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2013",
+    "trailer": "https://youtu.be/Ke1Y3P9D0Bc?si=EZwS8CiI1ekNw-tS",
+    "iframeTrailer": "https://www.youtube.com/embed/Ke1Y3P9D0Bc?si=EZwS8CiI1ekNw-tS",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "superheroes"
+      },
+      {
+        "type": "science fiction"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "movieName": "Jurassic World",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/ee4f01fd-f2d1-492a-bc77-3a5854ce28df?base_image_bucket_name=image_manager&base_image=65bb592d-3724-4fa9-b8ea-1fe1c1ae85a4&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/ee4f01fd-f2d1-492a-bc77-3a5854ce28df?base_image_bucket_name=image_manager&base_image=18fe321a-358c-4ac8-b0cc-b7a7f5a6b260&size=600x338&format=jpeg",
+    "starring": "Chris Pratt, Bryce Dallas Howard, Irrfan Khan",
+    "director": "Colin Trevorrow",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2015",
+    "trailer": "https://youtu.be/RFinNxS5KN4?si=f-O92svf5VB7aoRJ",
+    "iframeTrailer": "https://www.youtube.com/embed/RFinNxS5KN4?si=f-O92svf5VB7aoRJ",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "science fiction"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "movieName": "Avatar",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/81538b4b-f238-473e-a89e-cd4343babb57?base_image_bucket_name=image_manager&base_image=e4fd3f64-0538-49b8-ad07-65c38a12cc55&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/81538b4b-f238-473e-a89e-cd4343babb57?base_image_bucket_name=image_manager&base_image=41a6dd54-8a1b-4311-885a-75393afaafdc&size=600x338&format=jpeg",
+    "starring": "Sam Worthington, Zoe Saldana, Sigourney Weaver",
+    "director": "James Cameron",
+    "rated": "PG-13",
+    "category": "Movie",
+    "releasedDate": "2009",
+    "trailer": "https://youtu.be/5PSNL1qE6VY?si=aqndUv9wtO9pDOJq",
+    "iframeTrailer": "https://www.youtube.com/embed/5PSNL1qE6VY?si=aqndUv9wtO9pDOJq",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "science fiction"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "movieName": "Maleficent",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/01b0d3e4-8b57-4cbe-9b74-e379bc60ac5a?base_image_bucket_name=image_manager&base_image=21757dbe-1d71-49e3-b9e9-27992e7b8468&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/01b0d3e4-8b57-4cbe-9b74-e379bc60ac5a?base_image_bucket_name=image_manager&base_image=7067e451-e5e3-4321-9819-a2ad681125bd&size=600x338&format=jpeg",
+    "starring": "Angelina Jolie, Elle Fanning, Sharlto Copley",
+    "director": "Robert Stromberg",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2014",
+    "trailer": "https://youtu.be/JIIgXEGAZgE?si=p9sNr6JGmB-oitfC",
+    "iframeTrailer": "https://www.youtube.com/embed/JIIgXEGAZgE?si=p9sNr6JGmB-oitfC",
+    "movieTypes": [
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "kids"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "movieName": "Paddington",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/8c0ee734-297f-4e3e-ad59-d68120dccde9?base_image_bucket_name=image_manager&base_image=04d6cf22-5b66-42d1-ad8a-abe0b7911e70&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/8c0ee734-297f-4e3e-ad59-d68120dccde9?base_image_bucket_name=image_manager&base_image=28f1334f-8844-4f2d-ba66-6a2744e310f5&size=600x338&format=jpeg",
+    "starring": "Hugh Bonneville, Sally Hawkins, Julie Walters",
+    "director": "Paul King",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2014",
+    "trailer": "https://youtu.be/W5tUEw4Nq4E?si=YPV9x4bY27_Sgeg8",
+    "iframeTrailer": "https://www.youtube.com/embed/W5tUEw4Nq4E?si=YPV9x4bY27_Sgeg8",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "kids"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "movieName": "Paddington 2",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/3152105f-2a97-4417-a713-734bc704cda0?base_image_bucket_name=image_manager&base_image=8a4dcc36-e553-4ff4-8ebf-fa581234b280&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/3152105f-2a97-4417-a713-734bc704cda0?base_image_bucket_name=image_manager&base_image=42b12bfc-2e31-4711-a594-174aa96b52f0&size=600x338&format=jpeg",
+    "starring": "Ben Whishaw, Hugh Grant,Sally Hawkins",
+    "director": "Paul King",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2017",
+    "trailer": "https://youtu.be/sw7RElt-SvE?si=SrLR9H5aSzLkhA21",
+    "iframeTrailer": "https://www.youtube.com/embed/sw7RElt-SvE?si=SrLR9H5aSzLkhA21",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "kids"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "movieName": "Night at the Museum",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/29c89abf-b956-4893-add2-804ce0dbe5d7?base_image_bucket_name=image_manager&base_image=cb2ae3ae-6893-47fb-abaf-db01dcb4da00&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/29c89abf-b956-4893-add2-804ce0dbe5d7?base_image_bucket_name=image_manager&base_image=65f1599c-6368-4751-8b41-701a8f6089ab&size=600x338&format=jpeg",
+    "starring": "Ben Stiller, Carla Gugino, Dick Van Dyke",
+    "director": "Shawn Levy",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2006",
+    "trailer": "https://youtu.be/Ltba1_-tRT4?si=gHbfk-efe40WvEcw",
+    "iframeTrailer": "https://www.youtube.com/embed/Ltba1_-tRT4?si=gHbfk-efe40WvEcw",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "kids"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "movieName": "Night at the Museum: Battle of the Smithsonian",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/103f57f7-e4d7-4cfb-b545-042d1833e026?base_image_bucket_name=image_manager&base_image=a1d21ae3-4d58-4cef-bdc7-357540075727&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/103f57f7-e4d7-4cfb-b545-042d1833e026?base_image_bucket_name=image_manager&base_image=6361083c-97d7-4ac1-b7c3-d99ee448a4d6&size=600x338&format=jpeg",
+    "starring": "Ben Stiller, Robin Williams, Owen Wilson",
+    "director": "Shawn Levy",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2009",
+    "trailer": "https://youtu.be/QCR_fgG0ydY?si=aimVvXKr_Qov1oTy",
+    "iframeTrailer": "https://www.youtube.com/embed/QCR_fgG0ydY?si=aimVvXKr_Qov1oTy",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "kids"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "movieName": "Night at the Museum: Secret of the Tomb",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/eefd84d7-01a2-419e-941c-631efaad118a?base_image_bucket_name=image_manager&base_image=aa55b94e-ae5d-4880-a022-0dc4c2f2d9fb&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/eefd84d7-01a2-419e-941c-631efaad118a?base_image_bucket_name=image_manager&base_image=add8e6c6-d5dc-47f1-a769-d9b5b203570a&size=600x338&format=jpeg",
+    "starring": "Ben Stiller, Robin Williams, Owen Wilson",
+    "director": "Shawn Levy",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2014",
+    "trailer": "https://youtu.be/KMKk7Dn__-Y?si=5ixRCJ7EZSV6g21h",
+    "iframeTrailer": "https://www.youtube.com/embed/KMKk7Dn__-Y?si=GPOHc6XVPi1Ta01T",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "fantasy"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "movieName": "Ice Age: The Meltdown",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/7d2c60a8-8e9a-4d90-98b9-b7449a09732f?base_image_bucket_name=image_manager&base_image=d750a233-fc98-4236-8200-bef7e4120ad9&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/7d2c60a8-8e9a-4d90-98b9-b7449a09732f?base_image_bucket_name=image_manager&base_image=377e41c5-3266-4089-a501-63956209d738&size=600x338&format=jpeg",
+    "starring": "Ray Romano, John Alberto Leguizamo, Denis Leary",
+    "director": "Carlos Saldanha",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2006",
+    "trailer": "https://youtu.be/tqdcLzM3ciQ?si=9Zkv9rsoFGkz89Fi",
+    "iframeTrailer": "https://www.youtube.com/embed/tqdcLzM3ciQ?si=3WlVjoLBRunLzQAE",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "animation"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "movieName": "Ice Age: Continental Drift",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/f89bddec-8bd7-4817-8b28-11dad89cc660?base_image_bucket_name=image_manager&base_image=2ef31bc4-6940-4e37-96c9-28f3bf8ce4ff&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/f89bddec-8bd7-4817-8b28-11dad89cc660?base_image_bucket_name=image_manager&base_image=bf9f7396-53c3-4b80-80aa-04886166b6df&size=600x338&format=jpeg",
+    "starring": "Ray Romano, John Alberto Leguizamo, Denis Leary",
+    "director": "Steve Martino, Mike Thurmeier",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2012",
+    "trailer": "https://youtu.be/xz-KgMtU_BM?si=_vZgyE3aluOfIqOs",
+    "iframeTrailer": "https://www.youtube.com/embed/xz-KgMtU_BM?si=_vZgyE3aluOfIqOs",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "family"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "animation"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "movieName": "Garfield",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/6bac0dd2-ce93-4616-8395-828d7a4e1a31?base_image_bucket_name=image_manager&base_image=58c75b48-af46-47ac-aa98-a898e910e78f&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/6bac0dd2-ce93-4616-8395-828d7a4e1a31?base_image_bucket_name=image_manager&base_image=5d6662b7-3f5a-45e8-b830-d63220bde03c&size=600x338&format=jpeg",
+    "starring": "Breckin Meyer, Jennifer Love Hewitt, Stephen Tobolowsky",
+    "director": "Peter Hewitt",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "2004",
+    "trailer": "https://youtu.be/GV5y4yTDtBI?si=nl4nGpnTGeKRcn2d",
+    "iframeTrailer": "https://www.youtube.com/embed/GV5y4yTDtBI?si=nl4nGpnTGeKRcn2d",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "family"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "movieName": "Home Alone",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/45e4a68f-d9df-45f7-8e81-01b4ca5524e9?base_image_bucket_name=image_manager&base_image=1601efa0-d282-4711-bfdf-43907ad78a9d&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/45e4a68f-d9df-45f7-8e81-01b4ca5524e9?base_image_bucket_name=image_manager&base_image=2af9ae04-8f6a-4456-b2db-d07038336f76&size=600x338&format=jpeg",
+    "starring": "Macaulay Culkin, Joe Pesci, Daniel Stern",
+    "director": "Chris Columbus",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "1990",
+    "trailer": "https://youtu.be/Fmih-zWIjGY?si=mxWaNom_blPox2xb",
+    "iframeTrailer": "https://www.youtube.com/embed/Fmih-zWIjGY?si=mxWaNom_blPox2xb",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "holiday"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "movieName": "Home Alone 2: Lost in New York",
+    "movieImg": "https://img.hulu.com/user/v3/artwork/86cd0f62-cec4-4426-9e35-9f8263a550a6?base_image_bucket_name=image_manager&base_image=d050ccb3-039e-499d-b42a-95dd91ddd06c&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img.hulu.com/user/v3/artwork/86cd0f62-cec4-4426-9e35-9f8263a550a6?base_image_bucket_name=image_manager&base_image=05319c5a-c6eb-46ca-929b-0019231e16df&size=600x338&format=jpeg",
+    "starring": "Macaulay Culkin, Joe Pesci, Daniel Stern",
+    "director": "Chris Columbus",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "1992",
+    "trailer": "https://youtu.be/5h9VDUNtoto?si=EGPyFhYP19tj9Ltr",
+    "iframeTrailer": "https://www.youtube.com/embed/5h9VDUNtoto?si=j7ccVY8kk1heP_ih",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "holiday"
+      },
+      {
+        "type": "family"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "movieName": "Home Alone 3",
+    "movieImg": "https://img3.hulu.com/user/v3/artwork/beacfe9b-79fb-495e-8860-b1ed3f4f56fe?base_image_bucket_name=image_manager&base_image=1e149e78-42f6-4656-afbf-32a8f34d2009&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img3.hulu.com/user/v3/artwork/beacfe9b-79fb-495e-8860-b1ed3f4f56fe?base_image_bucket_name=image_manager&base_image=9f841bd2-a777-493e-9f93-ab8860a8c596&size=600x338&format=jpeg",
+    "starring": "Alex D. Linz, Olek Krupa, Rya Kihlstedt",
+    "director": "Raja Gosnell",
+    "rated": "PG",
+    "category": "Movie",
+    "releasedDate": "1997",
+    "trailer": "https://youtu.be/PP--dDh4axI?si=UMkDKmBNnjK1oYQh",
+    "iframeTrailer": "https://www.youtube.com/embed/PP--dDh4axI?si=UMkDKmBNnjK1oYQh",
+    "movieTypes": [
+      {
+        "type": "comedy"
+      },
+      {
+        "type": "kids"
+      },
+      {
+        "type": "family"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "movieName": "The Monster",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/318a580f-aef8-410e-af7e-390e39283c90?base_image_bucket_name=image_manager&base_image=7a426705-9981-4476-9f18-79cfbbfb6f1c&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/318a580f-aef8-410e-af7e-390e39283c90?base_image_bucket_name=image_manager&base_image=0b49138e-86f6-424d-81a3-d47f5885a97a&size=600x338&format=jpeg",
+    "starring": "Zoe Kazan, Scott Speedman, Ella Ballentine",
+    "director": "Raja Gosnell",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2016",
+    "trailer": "https://youtu.be/tbyCUdzR87Y?si=KRhonR7BZqrgEWwd",
+    "iframeTrailer": "https://www.youtube.com/embed/tbyCUdzR87Y?si=PXVvjnuwv9PbhE5N",
+    "movieTypes": [
+      {
+        "type": "fantasy"
+      },
+      {
+        "type": "science fiction"
+      },
+      {
+        "type": "horror"
+      },
+      {
+        "type": "thriller"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "movieName": "The Conjuring",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/9bf6cf04-5699-4659-bc7b-9bf2aa8305a8?base_image_bucket_name=image_manager&base_image=852821c3-5530-41b0-b534-9836b80308b3&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/9bf6cf04-5699-4659-bc7b-9bf2aa8305a8?base_image_bucket_name=image_manager&base_image=5b491aa4-8265-4200-9d4b-0af561c75bc9&size=600x338&format=jpeg",
+    "starring": "Vera Farmiga, Patrick Wilson, Lili Taylor",
+    "director": "James Wan",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2013",
+    "trailer": "https://youtu.be/k10ETZ41q5o?si=bbr7j6hYsVKh4EeE",
+    "iframeTrailer": "https://www.youtube.com/embed/k10ETZ41q5o?si=vIobaQMeTfGROlUz",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "movieName": "The Nun",
+    "movieImg": "https://img4.hulu.com/user/v3/artwork/7b7227a4-b5a5-4a4a-8b71-7ba72b1c0f51?base_image_bucket_name=image_manager&base_image=3ac571d9-640a-46ce-9d6a-d0841aaf65bf&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img4.hulu.com/user/v3/artwork/7b7227a4-b5a5-4a4a-8b71-7ba72b1c0f51?base_image_bucket_name=image_manager&base_image=9708e850-bbc0-46ee-a0e5-11e9f210a608&size=600x338&format=jpeg",
+    "starring": "Demián Bichir, Taissa Farmiga, Jonas Bloquet",
+    "director": "Corin Hardy",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2018",
+    "trailer": "https://youtu.be/pzD9zGcUNrw?si=zpKM-K1DPFCz77Iq",
+    "iframeTrailer": "https://www.youtube.com/embed/pzD9zGcUNrw?si=zpKM-K1DPFCz77Iq",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "movieName": "The Nun 2",
+    "movieImg": "https://img1.hulu.com/user/v3/artwork/eee47384-f03b-4a34-a42b-5107ccaffa23?base_image_bucket_name=image_manager&base_image=66682d26-863f-47e4-8acd-87321fdb712b&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img1.hulu.com/user/v3/artwork/eee47384-f03b-4a34-a42b-5107ccaffa23?base_image_bucket_name=image_manager&base_image=738018dd-1273-4b4b-8d91-e9c0ba86b19a&size=600x338&format=jpeg",
+    "starring": "Taissa Farmiga, Jonas Bloquet, Storm Reid",
+    "director": "Michael Chaves",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2023",
+    "trailer": "https://youtu.be/QF-oyCwaArU?si=x8Qwd5HNBS-EAGFj",
+    "iframeTrailer": "https://www.youtube.com/embed/QF-oyCwaArU?si=x8Qwd5HNBS-EAGFj",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "horror"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "movieName": "Now You See Me",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/20b8bc56-34b5-4ec9-bf7c-705a105e8b9b?base_image_bucket_name=image_manager&base_image=93818833-4bc7-4d8f-847f-abfa2c4f40cd&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/20b8bc56-34b5-4ec9-bf7c-705a105e8b9b?base_image_bucket_name=image_manager&base_image=60d869c2-d5ce-4e14-b8d1-4a48883702e0&size=600x338&format=jpeg",
+    "starring": "esse Eisenberg, Mark Ruffalo, Woody Harrelson",
+    "director": "Louis Leterrier",
+    "rated": "TVMA",
+    "category": "Movie",
+    "releasedDate": "2013",
+    "trailer": "https://youtu.be/KzJNYYkkhzc?si=-KVP5df6muXpMKPA",
+    "iframeTrailer": "https://www.youtube.com/embed/KzJNYYkkhzc?si=-KVP5df6muXpMKPA",
+    "movieTypes": [
+      {
+        "type": "thriller"
+      },
+      {
+        "type": "drama"
+      },
+      {
+        "type": "crime"
+      },
+      {
+        "type": "mystery"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "movieName": "Now You See Me 2",
+    "movieImg": "https://img2.hulu.com/user/v3/artwork/fdf87a19-e11c-4f6b-b1a4-639d3ad8efbe?base_image_bucket_name=image_manager&base_image=1815a7ea-01cc-48d8-a541-bf94b959278f&size=2560x1440&format=jpeg",
+    "movieSmallImg": "https://img2.hulu.com/user/v3/artwork/fdf87a19-e11c-4f6b-b1a4-639d3ad8efbe?base_image_bucket_name=image_manager&base_image=8e598cc5-3614-4a8b-843e-eec3793d8194&size=600x338&format=jpeg",
+    "starring": "Jesse Eisenberg, Mark Ruffalo, Woody Harrelson",
+    "director": "Jon M. Chu",
+    "rated": "R",
+    "category": "Movie",
+    "releasedDate": "2016",
+    "trailer": "https://youtu.be/4I8rVcSQbic?si=RK7JyZy8lQzm4qjS",
+    "iframeTrailer": "https://www.youtube.com/embed/4I8rVcSQbic?si=RK7JyZy8lQzm4qjSttps://www.youtube.com/embed/QF-oyCwaArU?si=x8Qwd5HNBS-EAGFj",
+    "movieTypes": [
+      {
+        "type": "drama"
+      },
+      {
+        "type": "action"
+      },
+      {
+        "type": "adventure"
+      },
+      {
+        "type": "comedy"
+      }
+    ]
   }
 ]
-
